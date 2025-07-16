@@ -1,0 +1,9 @@
+{
+    "name": "user/yara-acessorios",
+    "autoload": {
+        "psr-4": {
+            "User\\YaraAcessorios\\": "src/"
+        }
+    },
+    "require": {}
+}
