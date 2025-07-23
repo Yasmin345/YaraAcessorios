@@ -3,39 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
-#botao{
-    background-color: pink;
-    width: 500px;
-    height: 50vh;
-    margin: 0 auto;
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+#topo{
+    background-color: #4A3359;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 200px;
-    cursor: pointer;
-    font-size: 80px;
+    height: 15vh;
+    justify-content: space-between;
 }
 
-.botao:hover{
-    background-color: rgb(243, 115, 136);
+.pesquisa {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+ 
 }
 
-#msg{
-    font-size: 100px;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+
+.pesquisa i{
+    border: 1px, red, solid;
+    color:#FFFFFF;
+    font-size:30px;
+   
 }
 
-.container-mensagens{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+
+
+.pesquisa input{
+    padding: 9px;
+    margin-bottom: 10px;
+    
 }
 
-#botao2{
-    display: none;
+
+#logo img {
+  width: 230px;
+  height: auto;
+  margin-left: -200px;
+  
 }
-/* o resto voce faz */
+
+.botoes_topo{
+   margin-right: 90px;
+    margin-top:30px ;
+  
+}
+
+
+
+
+
+
