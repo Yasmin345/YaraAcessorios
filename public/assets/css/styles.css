@@ -8,8 +8,8 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-#topo{
-    background-color: #4A3359;
+.topo{
+    background-color:#5f051f;
     display: flex;
     height: 15vh;
     justify-content: space-between;
@@ -19,24 +19,25 @@ body {
   display: flex;
   align-items: center;
   margin-left: 100px;
- 
+  /* border: solid red 1px; */
+ /* justify-content: center; */
 }
 
 
 .pesquisa i{
-    border: 1px, red, solid;
+    /* border: 1px red solid; */
     color:#FFFFFF;
     font-size:30px;
-   
 }
 
 
 
 .pesquisa input{
     padding: 9px;
-    margin-bottom: 10px;
-    
+    /* margin-top: 0; */
 }
+    
+
 
 
 #logo img {
@@ -52,8 +53,17 @@ body {
   
 }
 
-
-
-
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu li{
+  list-style: none;
+}
+.menu li a{
+  text-decoration: none;
+  color: black;
+}
 
 
