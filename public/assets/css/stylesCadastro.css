@@ -11,11 +11,11 @@ body {
 
 h1 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .container {
   height: 100vh;
-  border: solid red 1px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -29,36 +29,34 @@ h1 {
 }
 
 .formulario {
-  border: solid red 1px;
   display: flex;
   flex-direction: column;
-  max-width: 100%;
   width: 50%;
   margin: 0 auto;
   justify-content: center;
   height: 70vh;
-  /* align-items: center; */
-  flex-wrap: wrap;
-  color: white;
-  background: #5f051f;
+  align-items: center;
+  background-color: #5f051f;
 }
 
 .formulario input {
+  max-width: 80%;
   margin-top: 10px;
   margin-bottom: 20px;
-  width: 80%;
+  width: 70%;
   display: flex;
-  height: 1.5rem;
+  height: 2.5rem;
   outline: none;
-  position: relative;
-  left: 100px;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  font-size: 16px;
 }
 
 .formulario label {
-  border: solid red 1px;
-  width: 30%;
-  position: relative;
-  left: 100px;
+  max-width: 80%;
+  width: 70%;
+  color: white;
+  font-size: 16px;
 }
 
 button {
@@ -68,4 +66,5 @@ button {
   position: relative;
   top: 20px;
   font-size: 14px;
+  cursor: pointer;
 }/*# sourceMappingURL=stylesCadastro.css.map */
