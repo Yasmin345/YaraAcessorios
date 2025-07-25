@@ -11,7 +11,7 @@ body {
 .topo{
     background-color:#5f051f;
     display: flex;
-    height: 17vh;
+    height: 15vh;
     justify-content: space-around;
     gap: 25px;
   
@@ -61,7 +61,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   border: #5f051f 2px solid;
-  margin-top: 10px;
+  background-color: #FDF4EF;
 }
 
 .menu :hover{
@@ -95,29 +95,37 @@ body {
 }
 
 .texto {
-  width: 230px;
+  width: 200px;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .botoes_produto{
-  display: flex;
   width: 200px;
   gap: 7px;
-
 }
 
 .botoes_produto button{
   background-color: #5f051f;
   border: none;
   color: #FFFFFF;
+  padding: 10px;
+  width: 200px;
+  margin-top: 10px;
+  
 }
 
 .botoes_produto button:hover {
-  background-color: #FFFFFF;
-  color: #5f051f;
-  border: 1px #5f051f solid;
+  background-color: #7e394d;
+  
+  border: 1px #5a081f solid;
 }
+
+.produto{
+padding: 25px;
+background-color:#FDF4EF;
+border: #5f051f solid 1px;
+}
+
 
 
 
