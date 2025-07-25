@@ -14,3 +14,10 @@ botao.addEventListener('click',function(e){
 
 
 // para fazer o menu hamburguer é parecida a logica
+
+const form = document.getElementById('form');
+
+form.addEventListener('submit',function(e){
+    e.preventDefault();
+    fetch('http://localhost/')
+})

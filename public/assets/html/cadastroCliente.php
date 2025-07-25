@@ -10,7 +10,7 @@
     <main>
         <div class="container">
             <h1>Cadastro do cliente</h1>
-            <form action="#" method="post">
+            <form method="post" id="form">
                 <div class="formulario">
                     <label for="nome">Nome</label>
                     <input type="text" placeholder="Digite seu nome" id="nome" name="nomeCliente">
