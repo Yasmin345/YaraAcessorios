@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Playfair Display', serif;
+  padding-top: 17vh;
 }
 
 .topo{
@@ -14,7 +15,9 @@ body {
     height: 15vh;
     justify-content: space-around;
     gap: 25px;
-  
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .pesquisa {
