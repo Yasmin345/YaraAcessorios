@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
 }
 
 body {
@@ -129,6 +130,32 @@ background-color:#FDF4EF;
 border: #5f051f solid 1px;
 }
 
+footer, .rodape {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.rodape{
+  display: flex;
+  border: #5a081f 1px solid;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10vh;
+  background-color: #5f0921;
+  color: #FDF4EF;
+ font-size: 15px;
+}
+
+.redes{
+align-items: center;
+justify-content: center;
+}
+
+.redes a {
+  color: aliceblue;
+}
 
 
 
