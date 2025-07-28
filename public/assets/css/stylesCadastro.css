@@ -55,8 +55,8 @@ h1 {
 .formulario label {
   max-width: 80%;
   width: 70%;
-  color: rgb(121, 36, 36);
-  font-size: 16px;
+  color: rgb(255, 239, 239);
+  font-size: 20px;
 }
 
 button {
@@ -67,4 +67,12 @@ button {
   top: 20px;
   font-size: 14px;
   cursor: pointer;
+  background-color: #5f051f;
+  border: none;
+  color: #FFFFFF;
+}
+
+button :hover {
+  background-color: #7e394d;
+  border: 1px #5a081f solid;
 }/*# sourceMappingURL=stylesCadastro.css.map */
