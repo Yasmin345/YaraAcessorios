@@ -5,9 +5,19 @@
  
 }
 
-body {
+html, body{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body{
   font-family: 'Playfair Display', serif;
   padding-top: 17vh;
+}
+
+main{
+  flex: 1;
 }
 
 .topo{
@@ -81,7 +91,7 @@ body {
   font-size: 20px;
 }
 
-.conteiner{
+.container{
   display:flex;
   align-items: center;
   
@@ -130,11 +140,6 @@ background-color:#FDF4EF;
 border: #5f051f solid 1px;
 }
 
-footer, .rodape {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 0;
-}
 
 .rodape{
   display: flex;
@@ -145,7 +150,7 @@ footer, .rodape {
   height: 10vh;
   background-color: #5f0921;
   color: #FDF4EF;
- font-size: 15px;
+  font-size: 15px;
 }
 
 .redes{
@@ -156,6 +161,3 @@ justify-content: center;
 .redes a {
   color: aliceblue;
 }
-
-
-
