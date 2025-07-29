@@ -72,7 +72,7 @@ button {
   color: #FFFFFF;
 }
 
-button :hover {
+button:hover {
   background-color: #7e394d;
-  border: 1px #5a081f solid;
+  border: 1px #5f051f solid;
 }/*# sourceMappingURL=stylesCadastro.css.map */
