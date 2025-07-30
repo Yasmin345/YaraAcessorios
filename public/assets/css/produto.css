@@ -98,55 +98,6 @@ main{
   font-size: 20px;
 }
 
-.container{
-  display:flex;
-  align-items: center;
-  
-}
-
-.produto img{
-  width: 200px;
-  margin-bottom: 10px;
-}
-
-#secao{
-  display:flex;
-  justify-content: space-around;
-  margin-top: 40px;
-}
-
-.texto {
-  width: 200px;
-  align-items: center;
-}
-
-.botoes_produto{
-  width: 200px;
-  gap: 7px;
-}
-
-.botoes_produto button{
-  background-color: #B6465F;
-  border: none;
-  color: #FFFFFF;
-  padding: 10px;
-  width: 200px;
-  margin-top: 10px;
-  
-}
-
-.botoes_produto button:hover {
-  background-color: #7e394d;
-  border: 1px #6B0D26 solid;
-}
-
-.produto{
-padding: 25px;
-background-color:#FDF4EF;
-border: #6B0D26 solid 1px;
-}
-
-
 .rodape{
   display: flex;
   border: #6B0D26 1px solid;
