@@ -159,8 +159,9 @@ justify-content: center;
 
 .gradeB{
   border: rgb(0, 187, 255) 1px solid;
-  width: 40vw;
-  height: 63vh;
+  width: 455px;
+  height: 455,
+  px;
 }
 
 .gradeB img{
@@ -171,4 +172,6 @@ justify-content: center;
 
 .gradeC{
   border: rgb(4, 255, 0) 1px solid;
+  display:flex;
+  flex-direction: column;
 }
